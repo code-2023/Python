@@ -1,0 +1,9 @@
+Ctrl + /  注释光标所在行
+Ctrl + C 复制光标所在行
+Ctrl + X 剪切光标所在行
+Ctrl + Y 删除光标所在行
+Ctrl + D 快速复制当前行到下一行
+
+Shift + Tab 取消缩进
+Shift + Enter 另起一行/快速换行
+Shift + Home/End 选中光标前全部/光标后全部

@@ -5,7 +5,7 @@ field = "模块的属性/成员变量"
 
 
 def func():
-    print("调用了Module模块的func函数")
+    print("调用了module模块的func函数")
 
 
 class Animal:
@@ -16,7 +16,7 @@ class Animal:
         self.sex = sex
         self.age = age
         self.weight = ''
-        print("创建了Animal对象，这是一只年龄为%d岁的%s%s" % (age, sex, name))
+        print("创建了Animal类的实例，这是一只年龄为%d岁的%s%s" %(age, sex, name))
 
     @staticmethod
     def behavior():
@@ -36,6 +36,6 @@ class Animal:
 if __name__ == "__main__":
     dog = Animal("Dog", "Male", 3)
     Animal.behavior()
-else:
-    print("看到这行输出，则说明module模块被import，解释器会执行该模块内代码")
-    print("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_")
+# else:
+#     print("看到这行输出，则说明module模块被import并由解释器执行该模块内代码")
+#     print("_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_")

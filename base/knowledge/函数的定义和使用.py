@@ -1,4 +1,4 @@
-from packages import TestClass
+from my_package import TestClass
 
 
 # 定义函数
