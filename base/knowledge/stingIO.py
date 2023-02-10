@@ -38,10 +38,10 @@ print(sio.read(6))
 #读取剩余所有行
 print(sio.readlines())
 
-#读取二进制数据
+#读取字节型的数据
 bio = BytesIO()
 bytes_data=s.encode('utf-8')
-print("打印十六进制编码的字符串：",bytes_data)
+print("打印经utf-8编码后的字节串形式：",bytes_data)
 bio.write(bytes_data)
 print("getvalue()返回值类型是",type(bio.getvalue()))
 bio.seek(-36,1)

@@ -5,17 +5,18 @@ class Test(object):
 
     # 打印对象时即打印特殊方法 __str__() 的返回值
     def __str__(self):
-        return "prefer to excute I am Test"
+        return f"返回对象中封装的数据，如{self.numbers}"
 
     # 当__str__方法未重写时，重写__repr__方法可替代__str__方法。
-    # 此外，使用repr(obj)可在交互式编程窗口展示对象信息
+    # 介绍对象的作用
     def __repr__(self):
-        return "I am Test1"
+        return "Hello! I am a Class of Test"
 
-    # 获取对象的长度
+    # 获取长度(具体意义可自定)
     def __len__(self):
         return len(self.numbers)
 
 obj = Test()
 print(obj)
+print(repr(obj))
 print(len(obj))
