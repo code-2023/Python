@@ -1,3 +1,6 @@
 .idea
-应用
+.vs
+.study/读写sqlite数据库/browser2.db
+.study/读写sqlite数据库/浏览器(com.android.browser).bak
 study
+pythonApplication
